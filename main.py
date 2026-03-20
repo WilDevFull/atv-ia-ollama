@@ -4,8 +4,9 @@ from langchain_core.tools import Tool
 from langchain_core.prompts import PromptTemplate
 import numexpr as ne
 
-# 1. LLM com as travas de parada
-llm = OllamaLLM(model="llama3", temperature=0).bind(
+# 1. LLM com as travas de parada (Usando modelo leve)
+# Você pode alterar "llama3.2" para "phi3" se quiser testar outro modelo rápido.
+llm = OllamaLLM(model="llama3.2", temperature=0).bind(
     stop=["\nObservation:", "Observation:"]
 )
 
