@@ -14,7 +14,7 @@ O agente utiliza o framework de raciocínio ReAct (Reasoning and Acting). Ao rec
 2. **Matemática:** Se identificar uma operação matemática, ele aciona a `Calculadora` personalizada, executa a equação de forma imune a alucinações e formula a resposta final.
 
 ## 🚀 Como Executar Localmente
-1. Instale o [Ollama](https://ollama.com/) e baixe o modelo Llama 3 (`ollama run llama3`).
+1. Instale o [Ollama](https://ollama.com/) e baixe o modelo leve (ex: `ollama run llama3.2` ou `ollama run phi3`).
 2. Clone este repositório.
 3. Crie um ambiente virtual: `python -m venv venv`
 4. Ative o ambiente e instale as dependências: `pip install -r requirements.txt`
